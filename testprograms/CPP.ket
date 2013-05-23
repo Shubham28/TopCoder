@@ -1,0 +1,33 @@
+#include <algorithm>
+#include <iostream>
+#include <cmath>
+#include <cstdlib>
+#include <vector>
+#include <map>
+#include <set>
+#include <numeric>
+
+#define FOR(A,B,C) for(int A=B;A<C;A++)
+#define EFOR(A,B,C) for(int A=B;A<=C;A++)
+#define RFOR(A,B,C) for(int A=B;A>=C;A--)
+#define MEM(A,B) memset(A,B,sizeof(A))
+#define SZ(A) int(A.size())
+#define PB(A,B) A.push_back(B);
+#define SORT(A) sort( A.begin(),A.end() )
+#define ALL(A) A.begin(),A.end()
+#define VI vector<int>
+#define VS vector<string>
+#define LL long long
+
+using namespace std;
+
+class <%:class-name%> {
+public:
+	<%:return-type%> <%:method-name%>(<%:param-type-list%>);
+};
+
+<%:return-type%> <%:class-name%>::<%:method-name%>(<%:param-list%>) {
+	<%:set-caret%>
+}
+<%:testing-code%>
+// Author: Shubham Gupta
